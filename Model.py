@@ -64,7 +64,7 @@ y_pred = clf.predict(X_test)
 
 print(classification_report(y_test, y_pred))
 
-x = 'he did something to me now i cant even look at my self :('
+x = ''
 x = get_clean(x)
 vec = tfidf.transform([x])
 clf.predict(vec)
